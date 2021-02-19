@@ -57,9 +57,13 @@
                 <ul class="main-nav nav navbar-nav navbar-right" id="main-nav">
                     <li><a href="/">Naslovnica</a></li>
                     <li><a href="/crowdfunding">Crowdfunding</a></li>
-                    <li><a href="/o-nama">O nama</a></li>
-                    <li><a href="https://t.me/CrowdCaffeNews" target="_blank">Vijesti</a></li>
-                    <li><a href="/kontakt">Kontakt</a></li>
+                    <li class="has-dropdown">
+                        <a href="/o-nama">O nama</a>
+                        <ul class="dropdown">
+                            <li><a href="https://t.me/CrowdCaffeNews" target="_blank">Vijesti</a></li>
+                            <li><a href="/kontakt">Kontakt</a></li>
+                        </ul>
+                    </li>
                     <li><a href="/ukljuci-se">Uključi se!</a></li>
                 </ul>
 
@@ -112,18 +116,17 @@
                 <aside id="aside" class="col-md-3 hidden-sm-down">
 
                     <!-- Category -->
-                    <ul class="main-nav nav navbar-nav navbar-right" id="main-nav">
-                        <li><a href="/">Naslovnica</a></li>
-                        <li><a href="/crowdfunding">Crowdfunding</a></li>
-                        <li class="has-dropdown">
+                    <div class="widget">
+                        <h3 class="title">Menu</h3>
+                        <div class="widget-category">
+                            <a href="/">Naslovnica</a>
+                            <a href="/crowdfunding">Crowdfunding</a>
                             <a href="/o-nama">O nama</a>
-                            <ul class="dropdown">
-                                <li><a href="https://t.me/CrowdCaffeNews" target="_blank">Vijesti</a></li>
-                                <li><a href="/kontakt">Kontakt</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="/ukljuci-se">Uključi se!</a></li>
-                    </ul>
+                            <a href="https://t.me/CrowdCaffeNews" target="_blank">-&nbsp;&nbsp;&nbsp;Vijesti</a>
+                            <a href="/kontakt">-&nbsp;&nbsp;&nbsp;Kontakt</a>
+                            <a href="/ukljuci-se" style="color: #E42D20;"><strong>Uključi se odmah!</strong></a>
+                        </div>
+                    </div>
                     <!-- /Category -->
 
                 </aside>
