@@ -1160,19 +1160,6 @@ header {
     margin-right: 5px;
 }
 
-.blog-img {
-    height: 450px;
-    overflow: hidden;
-    position: relative;
-    vertical-align: middle;
-}
-
-.blog-img img {
-    display: inline;
-    margin-top: -200px;
-    width: 100%;
-}
-
 /*------------------------------------*\
 	Blog post
 \*------------------------------------*/
